@@ -1,0 +1,21 @@
+{
+  "name": "dawn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dawn.js",
+  "scripts": {
+    "start": "node dawn.js",
+    "devStart": "nodemon dawn.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
