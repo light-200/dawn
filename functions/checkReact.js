@@ -1,4 +1,13 @@
 exports.checkReact = (message) => {
+  // this is for message reaction is suggestions and introduction
+  if (message.channel.id === "834768678935330826") {
+    message.react("✅");
+    message.react("❎");
+  } else if (message.channel.id === "834450134594617406") {
+    message.react("827860251495759872");
+  }
+
+  // this is for message reaction in every channel
   if (message.content.toLowerCase().includes(" love")) {
     message.react("827860267509481473");
     message.react("827860251495759872");
